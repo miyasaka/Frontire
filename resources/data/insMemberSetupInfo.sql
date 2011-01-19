@@ -1,0 +1,1 @@
+insert into membersetup_info (mid) values (/*mid*/)

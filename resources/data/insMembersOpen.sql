@@ -1,0 +1,26 @@
+INSERT INTO MEMBERS
+(
+    MID,
+    EMAIL,
+    NICKNAME,
+    PASSWORD,
+    STATUS,
+    ENTDATE,
+    UPDID,
+    UPDDATE,
+	OPENID,
+	MEMBERTYPE
+)
+VALUES
+(
+    /*mid*/,
+    /*email*/,
+    /*nickname*/,
+    /*password*/,
+    '1',
+    current_timestamp,
+	/*mid*/,
+    current_timestamp,
+	/*openid*/,
+	'1'
+)

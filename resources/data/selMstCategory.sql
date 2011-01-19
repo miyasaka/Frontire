@@ -1,0 +1,11 @@
+SELECT
+  CATEGORYID
+ ,CATEGORYNAME
+FROM
+  MST_CATEGORY
+ /*IF categoryid != null*/
+WHERE
+     CATEGORYID = /*categoryid*/
+ /*END*/
+ORDER BY
+  CATEGORYNAME

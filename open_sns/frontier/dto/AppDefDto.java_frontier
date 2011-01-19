@@ -1,0 +1,93 @@
+package frontier.dto;
+
+public class AppDefDto{
+	/*-----------------------------------------*/
+	// ■ 命名規則
+	// パラメタ名 ：
+	// Frontier Parameter の略でFP_をつける
+	// その後にシステム毎の短縮名称を付ける コミュニティ -> FP_COM_XX
+	/*-----------------------------------------*/
+	// ■ 共通系(CMN)
+		//サーバー上パス(hawaii)
+	//	public String FP_CMN_CONTENTS_DIR  = "//home/tomcat/www/contents/";
+		//ImageMagick本体パス
+		public String FP_CMN_IMAGEMAGICK_DIR = "";
+		// 画像ＵＰ時のディレクトリパス
+		public String FP_CMN_CONTENTS_DIR  = "/var/www/contents/";
+		// 画像参照時のルートパス
+		public String FP_CMN_CONTENTS_ROOT = "/contents";
+		// i-mode絵文字のxmlパス
+		public String FP_CMN_EMOJI_XML_PATH = "/var/www/static/xml/emojimap.xml";
+		// i-mode絵文字の画像パス
+		public String FP_CMN_EMOJI_IMG_PATH = "/images/emoji/";
+		//日記画像格納パス（前半部分）
+		public String FP_CMN_DIARY_BEFORE_PATH = "/img/mem/";
+		//日記画像格納パス（後半部分）
+		public String FP_CMN_DIARY_AFTER_PATH = "/diary/dir/";
+		// フォトアルバム画像格納パス（後半部分）
+		public String FP_CMN_PHOTO_AFTER_PATH = "/photo/dir/";
+		// 一覧系画面で表示する本文の文字数
+		public Integer FP_CMN_LIST_CMNTMAX = 100;
+		// ページングのMAX数[1 2 3  ・・・ 10 11 12]
+		public Integer FP_CMN_PAGENG_MAX = 10;
+		// メンバー一覧画面で表示するMAX数
+		public Integer FP_CMN_LIST_MEMMAX = 10;
+		// コミュニティ一覧画面で表示するMAX数
+		public Integer FP_CMN_LIST_COMMAX = 10;
+		// リクエスト確認で表示するMAX数
+		public Integer FP_CMN_LIST_REQMAX = 5;
+		// 日記の公開権限
+		public String[] FP_CMN_DIARY_AUTH1 = {"1","全体"};
+		public String[] FP_CMN_DIARY_AUTH2 = {"2","友人の友人"};
+		public String[] FP_CMN_DIARY_AUTH3 = {"3","友人"};
+		public String[] FP_CMN_DIARY_AUTH4 = {"4","非公開"};
+		
+	// ■ マイページ系(MY)
+		// マイトップ画面で表示するメンバー、コミュニティ一覧のMAX数
+		public Integer FP_MY_TOPLIST_PGMAX = 9;
+		// 日記の一覧画面で１ページに表示するMAX数
+		public Integer FP_MY_DIARYLIST_PGMAX = 20;
+		// フォトアルバムの一覧画面で１ページに表示するMAX数
+		public Integer FP_MY_PHOTOALBUMLIST_PGMAX = 20;
+		// フォトアルバム閲覧の一覧に表示する写真の最大数
+		public Integer FP_MY_PHOTO_PGMAX = 10;
+		// マイページ画面で表示する参加コミュニティの最新書き込みのMAX数
+		public Integer FP_MY_NEWCOMMUNITY_PGMAX = 5;
+		// マイページ画面で表示する最近書き込みしたコミュニティのMAX数
+		public Integer FP_MY_COMMUNITYCOMMENT_PGMAX = 5;
+		// マイページ画面で表示する同志最新日記のMAX数
+		public Integer FP_MY_NEWDIARY_PGMAX = 5;
+		// マイページ画面で表示する最近コメントした日記のMAX数
+		public Integer FP_MY_DIARYCOMMENT_PGMAX = 5;
+		// マイページ画面で表示する同志更新情報のMAX数
+		public Integer FP_MY_NEW_PGMAX = 5;
+		// 足跡画面の1ページ最大件数
+		public Integer FP_MY_HISTORYLIST_PGMAX = 30;
+		// 足跡画面全体の最大表示件数
+		public Integer FP_MY_HISTORYLIST_ALLMAX = 60;
+		// 同志最新日記一覧で表示する日記の開始日
+		public Integer FP_MY_NEWDIARY_LIST_PGMAX = -30;
+		// 参加コミュニティ最新書き込み一覧で表示するﾄﾋﾟｯｸの日付範囲
+		public Integer FP_MY_NEWCOMMUNITY_LIST_PGMAX = 30;
+	
+	// ■ メンバー系(MEM)
+		// メンバートップ画面で表示するメンバー、コミュニティ一覧のMAX数
+		public Integer FP_MEM_TOPLIST_PGMAX = 9;
+		// メンバートップ画面で表示する最近の日記一覧のMAX数
+		public Integer FP_MEM_NEWDIARY_PGMAX = 5;
+		// メンバートップ画面で表示する最近のアルバム一覧のMAX数
+		public Integer FP_MEM_NEWALBUM_PGMAX = 4;
+		// メンバートップ画面で表示する最近の動画一覧のMAX数
+		public Integer FP_MEM_NEWMOVIE_PGMAX = 4;
+		
+	// ■ コミュニティ系(COM)
+		// コミュニティトップ画面で表示する新着一覧系のMAX数
+		public Integer FP_COM_BBSLIST_PGMAX = 5;
+		// コミュニティトップ画面で表示するメンバー、コミュニティ一覧のMAX数
+		public Integer FP_COM_TOPLIST_PGMAX = 9;
+		// 参加メンバー一覧画面で表示するMAX数
+		public Integer FP_COM_LIST_MEMMAX = 10;
+		// トピック・イベント閲覧画面で表示するコメントのMAX数
+		public Integer FP_COM_BBSLIST_CMNTMAX = 5;
+
+}

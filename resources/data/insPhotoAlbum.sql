@@ -1,0 +1,24 @@
+insert into photo_album
+(
+	mid,
+	ano,
+	title,
+	detail,
+	publevel,
+	entid,
+	entdate,
+	updid,
+	upddate
+)
+values
+(
+	/*mid*/,
+	/*ano*/,
+	/*title*/,
+	/*detail*/,
+	/*publevel*/,
+	/*entid*/,
+	now(),
+	/*updid*/,
+	now()
+)

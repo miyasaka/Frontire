@@ -1,0 +1,1 @@
+DELETE FROM SCHEDULE WHERE SNO = /*sno*/ AND MID = /*mid*/

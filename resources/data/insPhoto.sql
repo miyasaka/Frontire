@@ -1,0 +1,26 @@
+INSERT INTO PHOTO
+(
+	MID,
+	ANO,
+	FNO,
+	PICNAME,
+	PIC,
+	COVERFLG,
+	ENTID,
+	ENTDATE,
+	UPDID,
+	UPDDATE
+)
+VALUES
+(
+	/*mid*/,
+	/*ano*/,
+	/*fno*/,
+	/*picname*/,
+	/*pic*/,
+	'0',
+	/*entid*/,
+	now(),
+	/*updid*/,
+	now()
+)
