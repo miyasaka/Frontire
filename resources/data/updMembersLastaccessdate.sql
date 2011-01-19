@@ -1,6 +1,0 @@
-UPDATE
-    MEMBERS
-SET
-    LASTACCESSDATE = NOW()
-WHERE
-    MID = /*mid*/

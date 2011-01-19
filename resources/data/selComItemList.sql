@@ -1,9 +1,0 @@
-SELECT
-    ITEMNAME
-FROM
-    MST_COMITEMCODE
-WHERE
-    ITEMID =/*itemid*/ AND
-    ITEMCD IN /*itemcd*/(1, 2)
-ORDER BY
-	ITEMCD

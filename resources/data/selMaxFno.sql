@@ -1,7 +1,0 @@
-SELECT
-	COALESCE(MAX(FNO),0) AS FNO
-FROM
-	PHOTO
-WHERE
-	MID = /*mid*/ AND
-	ANO = /*ano*/

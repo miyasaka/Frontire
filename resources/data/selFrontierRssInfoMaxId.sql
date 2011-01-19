@@ -1,1 +1,0 @@
-select coalesce(max(id),0)+1 as id from frontier_rss_info
