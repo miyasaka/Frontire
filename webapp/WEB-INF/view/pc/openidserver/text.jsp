@@ -1,1 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=windows-31J" pageEncoding="UTF-8"%>${responseText}
