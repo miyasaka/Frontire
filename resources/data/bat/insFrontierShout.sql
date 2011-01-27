@@ -1,0 +1,30 @@
+insert into frontiershout
+	(
+		mid,
+		no,
+		comment,
+		twitter,
+		entid,
+		entdate,
+		updid,
+		upddate,
+		demandflg,
+		confirmflg,
+		pub_level,
+		delflg
+	)
+values
+	(
+		/*mid*/,
+		/*no*/,
+		/*comment*/,
+		/*twitter*/,
+		/*entid*/,
+		/*entdate*/,
+		/*updid*/,
+		current_timestamp,
+		/*demandflg*/,
+		/*confirmflg*/,
+		/*pub_level*/,
+		/*delflg*/
+	)

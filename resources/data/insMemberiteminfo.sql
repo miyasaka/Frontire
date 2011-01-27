@@ -1,0 +1,26 @@
+INSERT INTO MEMBERITEM_INFO
+(
+    MID,
+    PUB_YEAROFBIRTH,
+    PUB_DATEOFBIRTH,
+    PUB_RESIDENCE,
+    PUB_HOMETOWN,
+    PUB_OCCUPATION,
+    PUB_COMPANY,
+    PUB_DIARY,
+    PUB_NAME,
+	PUB_GENDER
+)
+VALUES
+(
+    /*mid*/,
+	'1',
+    '1',
+    '1',
+    '1',
+    '1',
+    '1',
+    '1',
+    '1',
+	'1'
+)

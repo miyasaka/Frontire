@@ -1,0 +1,26 @@
+insert into frontier_group
+(
+    frontierdomain,
+    gid,
+    gname,
+    pic,
+    joinnumber,
+    delflg,
+    entid,
+    entdate,
+    updid,
+    upddate
+)
+values
+(
+    /*frontierdomain*/,
+    /*gid*/,
+    /*gname*/,
+    /*pic*/,
+    /*joinnumber*/,
+    '0',
+    /*entid*/,
+    now(),
+    /*updid*/,
+    now()
+)

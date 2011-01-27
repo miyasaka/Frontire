@@ -1,0 +1,7 @@
+SELECT
+	COALESCE(MAX(COMNO),0)+1 AS COMNO
+FROM
+	DIARY
+WHERE
+	MID = /*mid*/ AND
+	DIARYID = /*diaryid*/

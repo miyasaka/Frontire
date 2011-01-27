@@ -1,0 +1,22 @@
+INSERT INTO PHOTO_COMMENT
+(
+	MID,
+	ANO,
+	CNO,
+	COMMENT,
+	ENTID,
+	ENTDATE,
+	UPDID,
+	UPDDATE
+)
+VALUES
+(
+	/*mid*/,
+	/*ano*/,
+	/*cno*/,
+	/*comment*/,
+	/*entid*/,
+	now(),
+	/*updid*/,
+	now()
+)

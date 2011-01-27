@@ -1,0 +1,19 @@
+--RSSメンバーの登録
+insert into frontier_rss_member 
+(
+    id,
+    mid,
+    entid,
+    entdate,
+    updid,
+    upddate
+)
+values
+(
+    /*id*/,
+    /*mid*/,
+    /*entid*/,
+    now(),
+    /*updid*/,
+    now()
+)

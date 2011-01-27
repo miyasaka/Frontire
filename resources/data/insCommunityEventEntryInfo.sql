@@ -1,0 +1,20 @@
+INSERT INTO community_evententry_info
+(
+	cid,
+	bbsid,
+	mid,
+	entid,
+	entdate,
+	updid,
+	upddate
+)
+VALUES
+(
+	/*cid*/,
+	/*bbsid*/,
+	/*mid*/,
+	/*entid*/,
+	/*entdate*/,
+	/*updid*/,
+	/*upddate*/
+);

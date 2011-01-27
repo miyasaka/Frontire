@@ -1,0 +1,6 @@
+UPDATE FILEINFO
+SET
+  DOWNLOAD = DOWNLOAD+1
+WHERE
+     FILEID = /*fileid*/
+ AND HISTORYNO = /*historyno*/

@@ -1,0 +1,24 @@
+INSERT INTO FRONTIER_USER_MANAGEMENT
+(
+	FRONTIERDOMAIN,
+	FID,
+	MID,
+	NICKNAME,
+	PIC,
+	ENTID,
+	ENTDATE,
+	UPDID,
+	UPDDATE
+)
+VALUES
+(
+	/*frontierdomain*/,
+	/*fid*/,
+	/*mid*/,
+	/*nickname*/,
+	/*pic*/,
+	/*entid*/,
+	current_timestamp,
+	/*updid*/,
+	current_timestamp
+)
